@@ -8,7 +8,7 @@
 
 # Description
 
-<p align="justify"> * "simulation_plot.py" and "manifold_plot.py" generate Figure 1. This figure represents a comparison between time-domain and covariance-based decoding when simulated signals are temporally misaligned across trials. The input features for time-domain and covariance-based decoding are vectorized. The distribution of cosine similarity within- and between- condition vectors shows that in most of the trials within-condition vectors are more similar than between-condition vectors when using covariance-based decoding. In contrast, within- and between- condition vectors are equally similar, and therefore indistinguishable, when using time-domain decoding. </p>
+* <p align="justify"> "simulation_plot.py" and "manifold_plot.py" generate Figure 1. This figure represents a comparison between time-domain and covariance-based decoding when simulated signals are temporally misaligned across trials. The input features for time-domain and covariance-based decoding are vectorized. The distribution of cosine similarity within- and between- condition vectors shows that in most of the trials within-condition vectors are more similar than between-condition vectors when using covariance-based decoding. In contrast, within- and between- condition vectors are equally similar, and therefore indistinguishable, when using time-domain decoding. </p>
 
 # Data & Code Availability
 
