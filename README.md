@@ -8,7 +8,11 @@
 
 # Description
 
-* <p align="justify"> "simulation_plot.py" and "manifold_plot.py" generate Figure 1. This figure represents a comparison between time-domain and covariance-based decoding when simulated signals are temporally misaligned across trials. The input features for time-domain and covariance-based decoding are vectorized. The distribution of cosine similarity within- and between- condition vectors shows that in most of the trials within-condition vectors are more similar than between-condition vectors when using covariance-based decoding. In contrast, within- and between- condition vectors are equally similar, and therefore indistinguishable, when using time-domain decoding. </p>
+Two datasets can be found in the "data/" folder. Each dataset consists of a baseline time window, 7 data time windows, and a class label array. The datasets are preprocessed and standardized.
+
+* <p align="justify"> "simulation_plot.py" and "manifold_plot.py" illustrate the decoding pipeline on simulated data, similar to Figure 1. This figure represents a comparison between time-domain and covariance-based decoding when simulated signals are temporally misaligned across trials. The input features for time-domain and covariance-based decoding are vectorized. The distribution of cosine similarity within- and between- condition vectors shows that in most of the trials within-condition vectors are more similar than between-condition vectors when using covariance-based decoding. In contrast, within- and between- condition vectors are equally similar, and therefore indistinguishable, when using time-domain decoding. </p>
+
+* <p align="justify"> "timedomain_plot.py" and "covariance_plot.py" generate single-subject decoding time courses for each decoding method, similar to Figure 2. Time-domain decoding uses multivariate MEG signals as input features. Covariance-based decoding uses spatial covariance matrices across MEG signals as input features. </p>
 
 # Data & Code Availability
 
