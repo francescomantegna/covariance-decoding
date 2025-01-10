@@ -27,7 +27,7 @@ if __name__ == '__main__':
 	n_jobs = -1
 
 	inputdir = 'data/'
-	subject_number = 2
+	subject_number = 1
 	filename_template = 'subject_%s_data_%s_%s.npz'
 
 	print(' ')
