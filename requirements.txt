@@ -1,7 +1,6 @@
-numpy                     1.25.1 \
-nilearn                   0.10.2\
-mne-base                  1.4.2\
-matplotlib-base           3.7.2\
-scikit-learn              1.2.2\
-pyriemann                 v0.7\
-}
+numpy                     1.25.1
+nilearn                   0.10.2
+mne-base                  1.4.2
+matplotlib-base           3.7.2
+scikit-learn              1.2.2
+pyriemann                 v0.7
