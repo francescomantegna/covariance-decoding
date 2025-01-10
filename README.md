@@ -14,6 +14,10 @@
 
 <p align="justify"> This repository contains only a portion of the full dataset, and the provided code is meant to replicate the main figures only. For access to the full dataset, please contact the author (Francesco Mantegna, fmantegna93@gmail.com). </p>
 
+# Citation
+
+<p align="justify"> The paper is currently under review, if you use the code in this repository please cite the preprint: Mantegna, F., Olivetti, E., Schwedhelm, P., & Baldauf, D. (2022). Covariance-based Decoding Reveals Content-specific Feature Integration and Top-down Processing for Imagined Faces versus Places. BioRxiv, 2022-09. (link: https://www.biorxiv.org/content/10.1101/2022.09.26.509536v2.abstract) </p>
+
 # DOI
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14536754.svg)](https://doi.org/10.5281/zenodo.14536754)
