@@ -14,6 +14,8 @@ Two sample datasets can be found in the "data/" folder. Each dataset consists of
 
 * <p align="justify"> "timedomain_plot.py" and "covariance_plot.py" generate single-subject decoding time courses for each decoding method, similar to Figure 2. Time-domain decoding uses multivariate MEG signals as input features. Covariance-based decoding uses spatial covariance matrices across MEG signals represented onto a Riemannian manifold and projected to a vector in an homomorphic Euclidean tangent space as input features. </p>
 
+* <p align="justify"> "importance_plot.py" illustrates the most informative connections for face (red) vs. place (blue) imagery decoding on a glass brain plot and a connectivity matrix for each hemisphere. The parcellation was derived from the Glasser et al. atlas. A selection of visual (blue), parietal (green), inferior temporal (purple), and inferior frontal (orange) Regions of Interest (ROIs) are represented. </p>
+
 # Data & Code Availability
 
 <p align="justify"> This repository contains only a portion of the full dataset, and the provided code is meant to replicate the main figures only. For access to the full dataset, please contact the author (Francesco Mantegna, fmantegna93@gmail.com). </p>
