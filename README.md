@@ -8,13 +8,13 @@
 
 # Description
 
-Two sample datasets can be found in the "data/" folder. Each dataset consists of a baseline time window, 7 data time windows, and a class label array. The datasets are preprocessed and standardized.
+Two sample datasets were uploaded in the "data/" folder. Each dataset consists of a baseline time window, 7 data time windows, a spatial covariance matrix in source space and a class label array. The datasets are preprocessed and standardized. In addition, an array which contains information about the cortical parcellation were uploaded including atlas label names and positions.
 
 * <p align="justify"> "simulation_plot.py" and "manifold_plot.py" illustrate the decoding pipeline on simulated data, similar to Figure 1. This figure represents a comparison between time-domain and covariance-based decoding when simulated signals are temporally misaligned across trials. The input features for time-domain and covariance-based decoding are vectorized. The distribution of cosine similarity within- and between- condition vectors shows that in most of the trials within-condition vectors are more similar than between-condition vectors when using covariance-based decoding. In contrast, within- and between- condition vectors are equally similar, and therefore indistinguishable, when using time-domain decoding. </p>
 
 * <p align="justify"> "timedomain_plot.py" and "covariance_plot.py" generate single-subject decoding time courses for each decoding method, similar to Figure 2. Time-domain decoding uses multivariate MEG signals as input features. Covariance-based decoding uses spatial covariance matrices across MEG signals represented onto a Riemannian manifold and projected to a vector in an homomorphic Euclidean tangent space as input features. </p>
 
-* <p align="justify"> "importance_plot.py" illustrates the most informative connections for face (red) vs. place (blue) imagery decoding on a glass brain plot and a connectivity matrix for each hemisphere, similar to Figure 6. The parcellation was derived from the Glasser et al. atlas. A selection of visual (blue), parietal (green), inferior temporal (purple), and inferior frontal (orange) Regions of Interest (ROIs) are represented. </p>
+* <p align="justify"> "importance_plot.py" illustrates the most informative connections for face (red lines) vs. place (blue lines) imagery decoding on a glass brain plot and a connectivity matrix for each hemisphere, similar to Figure 6. The cortical parcellation was derived from the Glasser et al. atlas. A theory-drive selection of visual (blue), parietal (green), inferior temporal (purple), and inferior frontal (orange) Regions of Interest (ROIs) is represented. </p>
 
 # Data & Code Availability
 
