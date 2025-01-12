@@ -18,7 +18,7 @@ Two sample datasets were uploaded in the "data/" folder. Each dataset consists o
 
 # Data & Code Availability
 
-<p align="justify"> This repository contains only a portion of the full dataset, and the provided code is meant to replicate the main figures only. For access to the full dataset, please contact the author (Francesco Mantegna, fmantegna93@gmail.com). </p>
+<p align="justify"> This repository contains only a portion of the full dataset, and the provided code is meant to replicate the main figures only. For access to the full dataset, please contact the corresponding author (Francesco Mantegna, fmantegna93@gmail.com). </p>
 
 # Citation
 
