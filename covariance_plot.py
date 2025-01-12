@@ -61,7 +61,7 @@ if __name__ == '__main__':
 		T = TangentSpace(metric='riemann').fit_transform(W)
 
 		print(" ")
-		print("Cross-validated %s using signal in time domain" % scoring)
+		print("Cross-validated %s using spatial covariance across sensors" % scoring)
 		clf = LogisticRegression(solver=solver)
 		cv = StratifiedKFold(n_splits=n_folds, random_state=0, shuffle=True)
 		print(cv)
