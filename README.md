@@ -16,6 +16,8 @@ Two sample datasets were uploaded in the "data/" folder. Each dataset consists o
 
 * <p align="justify"> "importance_plot.py" illustrates the most informative connections for face (red lines) vs. place (blue lines) imagery decoding on a glass brain plot and a connectivity matrix for each hemisphere, similar to Figure 6. The cortical parcellation was derived from the Glasser et al. atlas. A theory-drive selection of visual (blue dots), parietal (green dots), inferior temporal (purple dots), and inferior frontal (orange dots) Regions of Interest (ROIs) is represented. </p>
 
+For a commented step-by-step execution of the scripts in this repository please have a look at the jupyter notebook files uploaded in the "notebook/" folder.
+
 # Data & Code Availability
 
 <p align="justify"> This repository contains only a portion of the full dataset, and the provided code is meant to replicate the main figures only. For access to the full dataset, please contact the corresponding author (Francesco Mantegna, fmantegna93@gmail.com). </p>
