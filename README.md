@@ -24,7 +24,7 @@ For a commented step-by-step execution of the scripts in this repository have a 
 
 # Citation
 
-<p align="justify"> The paper is currently under review, if you use the code in this repository please cite the preprint: Mantegna, F., Olivetti, E., Schwedhelm, P., & Baldauf, D. (2022). Covariance-based Decoding Reveals Content-specific Feature Integration and Top-down Processing for Imagined Faces versus Places. BioRxiv, 2022-09. (link: https://www.biorxiv.org/content/10.1101/2022.09.26.509536v2.abstract) </p>
+<p align="justify"> If you use the code in this repository please cite the paper: Mantegna, F., Olivetti, E., Schwedhelm, P., & Baldauf, D. (2025). Covariance-based decoding reveals a category-specific functional connectivity network for imagined visual objects. NeuroImage, 121171. (link: https://www.sciencedirect.com/science/article/pii/S1053811925001739) </p>
 
 # DOI
 
